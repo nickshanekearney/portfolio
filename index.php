@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nick Shane Kearney</title>
+		<link rel="stylesheet" href="css/default.css"> 
+		
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,800|Chivo:400,900|Sansita+One|Paytone+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css"> 
+		 
+		<!-- accordian --> 
+		<script src="moduals/jquery/dev/jquery-1.10.2.js"></script>
+		<script src="moduals/jquery/dev/ui/jquery.ui.core.js"></script>
+		<script src="moduals/jquery/dev/ui/jquery.ui.widget.js"></script>
+		<script src="moduals/jquery/dev/ui/jquery.ui.accordion.js"></script>
+		
+		
+		<link rel="stylesheet" href="css/nav.css"> 		
+  		<script type="text/javascript" src="js/responsiveNav.js"></script> 
+			
+			
+	 		
+		<!--caresoule-->  
+		<script type="text/javascript" src="moduals/carousel/simple.carousel.js"></script>
+
+		 		
+		<!-- paralax -->
+		<link href="moduals/paralax/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="moduals/paralax/scripts/jquery.parallax-1.1.3.js"></script>
+		<script type="text/javascript" src="moduals/paralax/scripts/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="moduals/paralax/scripts/jquery.scrollTo-1.4.2-min.js"></script>
+
+		
+	 
+		<!-- photohover -->
+		<link rel="stylesheet" href="moduals/imageHover/css/hover_pack.css"> 
+		<script src="moduals/imageHover/js/hover_pack.js"></script>
+
+		
+		<!-- text rotate -->		
+		<script type="text/javascript" src="moduals/textRotate/jquery.simple-text-rotator.js"></script> 	 
+		<link rel="stylesheet" type="text/css" href="moduals/textRotate/simpletextrotator.css" />
+		
+		<!-- VIDEO BG --> 
+		<script type="text/javascript" src="moduals/jVideo/jquery.videoBG.js"></script>
+		<script type="text/javascript" src="moduals/jVideo/assets/script.js"></script>
+		
+		
+		
+		<!-- fade in--> 
+		<script type="text/javascript" src="moduals/magicScroll/js/_dependent/greensock/TweenMax.min.js"></script>
+		<script type="text/javascript" src="moduals/magicScroll/js/_dependent/greensock/plugins/ScrollToPlugin.min.js"></script> 
+	  	<script type="text/javascript" src="moduals/magicScroll/js/_examples/modernizr.custom.min.js"></script>
+	  	<script type="text/javascript" src="moduals/magicScroll/js/_mobile/iscroll.js"></script>
+	  	<script type="text/javascript" src="moduals/magicScroll/js/jquery.scrollmagic.min.js"></script>
+	  	<script type="text/javascript" src="moduals/magicScroll/js/_examples/demo.js"></script>
+			
+		<script type="text/javascript">
+	  		var controller;
+	  		if (Modernizr.touch) {
+	  			var myScroll;
+	  			 	  			// init the controller
+	  			controller = new ScrollMagic({
+		  			container: "#content-wrapper",
+		  			globalSceneOptions: {
+		  				triggerHook: "onLeave"
+		  			}
+		  		});
+	  		} else {
+	  			// init the controller
+		  		controller = new ScrollMagic({
+		  			globalSceneOptions: {
+		  				triggerHook: "onLeave"
+		  			}
+		  		});
+	  		}
+
+	  	</script>
+		     <script type="text/javascript"> // <![CDATA[
+			    if (navigator.userAgent.indexOf('iPad') != -1) {
+			    document.location = "http://www.nickshanekearney.com/indexIpad.html";
+			    } // ]]>
+			   </script>
+
+		<!--res-->
+		<link rel="stylesheet" href="css/res.css"> 
+	</head>
+	<body> 
+		<nav>  
+			<ul class="menu blue">    UNDER CONSTRUCTION 
+				<li class="active"><a data-scroll data-options="easing: easeInQuad" href="#">Home</a></li> 
+			    <li class="active"><a data-scroll data-options="easing: easeInQuad" href="#portfolio">Portfolio</a></li> 
+ 		    
+				<li class="active"><a data-scroll data-options="easing: easeInQuad" href="#about">About</a></li>	
+			    <li class="active"><a data-scroll data-options="easing: easeInQuad" href="#openMe">Contact</a></li>  
+			</ul>
+		</nav> 
+		
+		
+		
+		
+		
+
+		<div class="pageWrapper">
+			
+			<header id="intro">
+			<div class="overlay"></div>
+				<div id="headerContent">
+					<img src="images/logoclear.png" width="100%" >
+					<h1>Nick Kearney</h1>
+					<p>nickshanekearney@icloud.com</p> 
+				</div>
+				<div class="bottomBarLeft"></div><div id="bottomBarIndent"></div><div class="bottomBarRight"></div>
+				
+			</header>
+			
+			<br><br><br> 			
+ 
+			     
+	    
+			<section id="portfolio">
+				<header>
+					<h2>My Portfolio</h2>
+					<h3>This is <strong>my </strong>work</h3> 
+					<p class="subtitle fancy"><span><i class="icon-briefcase"></i></span></p>
+				</header>
+				<div id="gallery">
+					 
+					<ul >
+					
+						<div class="fifth">
+							<li>
+								<a href="http://rx.oakleyamp.co/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/1.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Oakley</h2>
+										<p class="b-scale b-animate b-delay06">Ask me more about my role on this project.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="https://www.unite4good.org/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/2.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">unite4:good</h2>
+										<p class="b-scale b-animate b-delay06">Ask me more about my role on this project.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://argushomes.com/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/3.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Argus Homes Real Estate</h2>
+										<p class="b-scale b-animate b-delay06">Freelance job.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://q4basketball.com/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/4.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Q4 Basketball</h2>
+										<p class="b-scale b-animate b-delay06">Freelance job.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						
+						<div class="fifth">
+							<li>
+								<a href="http://orangecoastvbc.net/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/5.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Orange Coast Volleybal Club</h2>
+										<p class="b-scale b-animate b-delay06">Freelance job.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://kourosphillips.org/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/9.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Kouros Phillips Development</h2>
+										<p class="b-scale b-animate b-delay06">Freelance job.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://getmodal.com/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/7.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Modal</h2>
+										<p class="b-scale b-animate b-delay06">Ask me more about my role on this project.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/8.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Kepp It Boutique</h2>
+										<p class="b-scale b-animate b-delay06">Server under maintenance</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://incipio.com/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/i	.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Incipio</h2>
+										<p class="b-scale b-animate b-delay06">Ask me more about my role on this project.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+						<div class="fifth">
+							<li>
+								<a href="http://wendygabriella.com/" target="_blank" class="b-link-fade b-animate-go">
+									<img src="images/port/10.jpg"/>
+									<div class="b-wrapper">
+										<h2 class="b-scale b-animate b-delay06">Wendy Gabriel For Assembly</h2>
+										<p class="b-scale b-animate b-delay06">Freelance job.</p>
+									</div>
+								</a>
+							</li>
+						</div>
+					 
+							
+					</ul>
+				</div>
+				
+			
+			</section>
+			 
+									
+			
+			<section id="about">
+			 	<div class="container">
+			 	
+			 		<header>
+						<h2>About me</h2>
+						<h3>This is <strong>who </strong>I am</h3>
+						<p class="subtitle fancy"><span><i class="icon-user"></i></span></p>
+						
+			 		</header>
+					
+					<div class="third">
+						<i class="icon-coffee"></i> 
+						<h3>industrious</h3>
+						<p>I am a hard-working, diligent web developer. I strive to be consistent and conscientious with team members and deadlines.</p>
+					</div>
+					<div class="third">	
+						<i class="icon-heart"></i>
+						<h3>passion</h3>
+						<p>This is truly what I love to do, few people find passion in their work and I am lucky enough to turn that into a career. </p>
+					</div>
+					<div class="third">
+						<i class="icon-key"></i>
+						<h3>adaptive</h3>
+						<p>My knowlage is unqunsiable and in a field that is ever expanding so am I. I make a point to stay up to date and always learning.</p>
+					</div>
+			 	</div>
+			</section>
+			
+									
+			
+			<section id="skills">
+				<div class="container">
+					<header>
+						<h2>My Skills</h2>
+						<h3>This is <strong>what </strong>I like to do</h3>
+						<p class="subtitle fancy"><span><i class="icon-magic"></i></span></p> 
+					</header>
+					<br><br>
+					
+					<div class="fourth">	
+						<i class="icon-html5"></i>
+						<h3>HTML5</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-css3"></i>
+						<h3>CSS / sass</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-usd"></i>
+						<h3>javaScript / jQuery</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-road"></i>
+						<h3>php / mySql</h3>
+					</div>
+					
+					<div class="fourth">
+						<i class="icon-hand-left"></i>
+						<h3>UI / UX Development</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-road"></i>
+						<h3>Content Management</h3>
+					</div>
+					<div class="fourth">
+						<i class=" icon-pencil"></i>
+						<h3>Brand Strategy</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-tablet"></i>
+						<h3>Responsive Design</h3>
+					</div>
+					
+					<div class="fourth">
+						<i class="icon-hand-left"></i>
+						<h3>Adobe suites</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-road"></i>
+						<h3>Frameworks</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-road"></i>
+						<h3>API Intergration</h3>
+					</div>
+					<div class="fourth">
+						<i class="icon-download-alt"></i>
+						<h3>Git / svn</h3>
+					</div>
+					
+				</div>
+			</section>
+			
+			
+								
+			<section id="download">
+				<header> 
+					<p>Download my <a href="assets/resume_nicholas_kearney.docx">resume</a> or view it live right now!</p>
+					<div class="downloadTabContent"><img src="images/tab.png" width="100px"></div> 
+				</header>	 
+			</section>	 	
+			
+		
+			<div id="accordion2"> 
+				<a  id="openContact2" class="black" src="#">view resume <br>▼</a> 
+				<div id="accordionContent2">
+			  
+				
+					<section id="resume">
+					 	<div class="container">
+					 	 
+							 
+							 
+							 <ul>
+								 <li>							
+									<time><span>May 2014 </span> <span> -Present</span></time>
+										<h2>Front-End Developer</h2>
+										<h4>Irvine, CA - Incipio Technologies </h4>
+										<p>Front end development & design of websites. Skills include HTML, CSS, SASS, JavaScript, jQuery and Responsive Design/Development. As the first developer building the initial markup it is imperative to plan for backend implementation of dynamic content.
+</p>
+								</li>
+								<li>							
+									<time><span>December 2013</span> <span> -April 2014</span></time>
+										<h2>Front-End Developer</h2>
+										<h4>Irvine, CA  - Modal Digital Agency  </h4>
+										<p>Front-end development from comps, planning markup structure, and meeting deadlines. Skills include HTML, CSS, SASS, jQuery, JavaScript, respectively, and Responsive Design/Development via Media Query in a Visual Studio environment.</p>
+								</li>
+								
+								<li>
+									<time><span> August 2005</span> <span>-Present</span></time> 
+										<h2>Head Coach / Web Master</h2>
+										<h4>Orange Coast Volleyball Club - Irvine, CA </h4>
+										<p>Organizing and planning team's weekly routine and player management. Website functionality includes relevant news & events, blog, Twitter API, Instagram API, google maps API, tracking of individual and overall team performance, promotional content, and Responsive Design.</p> 
+								</li>
+								
+								<li>
+									<time><span>July 2008 </span> <span>-July 2010</span></time> 
+										<h2>Office Assistant</h2>
+										<h4>Metro C & P - Long Beach, CA</h4> 
+										<p>File management, phone, front-desk reception and database maintenance.</p> 
+								</li>
+								
+								<li>
+									<time><span>Summer 2008</span> <span></span></time> 
+										<h2>Sales Representative</h2>
+										<h4>Global Express Logistics - Lake Forest, CA </h4> 
+										<p>Meeting with clients, setting up appointments, gathering leads and generating sales.</p>
+								</li>
+								
+								<li>
+									<time class="cbp_tmtime"><span>Winter 2013</span> <span></span></time> 
+										<h2>Bachelor of Science</h2>
+										<h4> The Art Institute of California—Orange County </h4> 
+										<p>Web Design, Computer Programming & Interactive Media</p> 
+								</li>
+								 
+								 
+							</ul>
+							 
+							 
+							 
+							 
+					 	</div>					 		
+					</section>
+				
+						
+					
+	
+				</div><!-- end of accord-->
+			</div>
+
+						
+			<div id="third"> 
+			
+				<div id="textRotate">
+					<div id="textRotateInner">
+						<h1 class="demo1">I am <span class="rotate">ambitious,industrious, accountable, efficient</span> </h1>
+					</div>
+				</div>
+				<div class="overlay"></div>  
+				<div id="div_demo"></div>
+			</div> 
+			
+			
+	     
+									
+			<section id="reviews">
+				<i class="icon-comment"></i>
+				
+				<ul class="carousel">
+			        <li><h4>Thanks to Nick’s thoughtful research and quick execution, my small business now has fantastic online presence. </h4>
+					<p>-Miguel Monterola</p>
+					</li>
+				    <li><h4>I was so pleased after working with Nick. He made it easy to communicate and gave life to my vision. </h4>
+					<p>-Wenddy Gabriel</p>
+					</li>
+				        <li><h4>I recommend Nick’s services to anyone looking for professional quality work that is completed by the agreed upon deadline.</h4>
+					<p>-Ray Getz</p>
+					</li>
+			    </ul>
+			</section>
+			
+									
+			
+			<section id="openMe">
+								
+				<header>
+					<h2>Thanks for stopping by!</h2>
+				</header>
+					
+			</section>
+				
+				
+			 
+				
+				
+				
+				
+				
+			<section id="contactMap">
+				<img src="images/pinDrop.png" width="60px">
+				<div id="mapContent">
+					<div class="left">
+						<header>
+							<h3>Say Hello</h3>
+						</header>
+					 
+							<?php
+							if ($_POST["email"]<>'') {
+							    $ToEmail = 'nickshanekearney@icloud.com';
+							    $EmailSubject = 'Site contact form';
+							    $mailheader = "From: ".$_POST["email"]."\r\n";
+							    $mailheader .= "Reply-To: ".$_POST["email"]."\r\n";
+							    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+							    $MESSAGE_BODY = "Name: ".$_POST["name"]."";
+							    $MESSAGE_BODY .= "Email: ".$_POST["email"]."";
+							    $MESSAGE_BODY .= "Comment: ".nl2br($_POST["comment"])."";
+							    mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
+							?>
+							Your message was sent
+							<?php
+							} else {
+							?>
+							<form action="index.php" method="post" >
+							 
+							<input name="email" type="text" id="email" size="32" placeholder="email" required> 
+							<textarea name="comment" cols="45" rows="6" id="comment" class="bodytext" placeholder="message" required></textarea>
+							<input type="submit" name="Submit" value="Send"> 
+							 
+							</form>
+							<?php
+							};
+							?>						
+						<style>
+							#contactMap input[type="submit"] {
+								  float: left; border: 0 none;
+								  border-radius: 2px 2px 2px 2px;
+								  color: #FFFFFF;
+								  cursor: pointer;
+								  display: inline-block;
+								  font-family: Arial,sans-serif;
+								  font-size: 12px;
+								  font-weight: bold;
+								  line-height: 20px;
+								  margin-bottom: 0;
+								  margin-top: 10px;
+								  padding: 7px 10px;
+								  text-transform: none;
+								  transition: all 0.3s ease 0s;
+								  -moz-transition: all 0.3s ease 0s;
+								  -webkit-transition: all 0.3s ease 0s;
+								  width: 16.795%; /* auto */
+								  text-align: center; background: #2AC5EE;
+								  
+								
+							}
+						
+						</style>
+						
+						
+					</div>
+					<div class="right">
+						<header>
+							<h3>Contact Details</h3>
+						</header>
+						<div class="contactType">
+							<i class="icon-phone"></i> 
+							<div class="contentInfo">
+								<p>phone number:</p>
+								<p>949.547.3759</p>
+							</div>
+						</div>
+						<div class="contactType">
+							<i class="icon-envelope"></i> 
+							<div class="contentInfo">
+								<p>email:</p>
+								<p>nickshanekearney@icloud.com</p>
+							</div>
+						</div>
+						<div class="contactType">
+							<i class="icon-globe"></i> 
+							<div class="contentInfo">
+								<p>website:</p>
+								<p>www.nickshanekearney.com</p>
+							</div>
+						</div>
+						
+						<ul class="icons">
+							<li><i class="icon-facebook"></i></li>
+							<li><i class="icon-twitter"></i></li>
+							<li><i class="icon-google-plus"></i></li> 
+							<li><i class="icon-linkedin"></i></li>
+
+						</ul>
+
+					</div>
+				</div>
+			</section>				
+			 			 
+		 	<footer> 
+				 
+					
+				<div class="left"> 
+					<p>developed by <span>nick shane kearney</span></p>  
+				</div>  
+			 
+	 	 		<div class="right">
+	 	 			&copy;2014 Nick Kearney
+	 	 		</div>
+	 	 		 
+			</footer>
+		
+	 
+	 
+		 
+		</div><!-- END page Wrapper-->
+		
+		
+		
+		<!-- smoth scrolling -->
+		<script src='moduals/smooth-scroll-master/smooth-scroll.js'></script>
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeInOutCubic',
+				offset: 50,
+				updateURL: false,
+				callbackBefore: function ( toggle, anchor ) {},
+				callbackAfter: function ( toggle, anchor ) {}
+			});
+		</script>
+		
+		<!-- accordia -->
+		<script>
+	 		$(function() {
+			$( "#accordion" ).accordion({
+				active: false,
+				collapsible: true, 
+			});
+		});
+		</script>
+		<script>
+	 		$(function() {
+			$( "#accordion2" ).accordion({
+				active: false,
+				collapsible: true, 
+			});
+		});
+		</script>
+		
+		
+		<!-- PARLAX -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#nav').localScroll(800);
+				
+				//.parallax(xPosition, speedFactor, outerHeight) options:
+				//xPosition - Horizontal position of the element
+				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+				$('#intro').parallax("50%", 0.1);
+				$('#second').parallax("50%", 0.1);
+				$('.bg').parallax("50%", 0.4);
+				$('#third').parallax("50%", 0.3);
+			
+			})
+		</script>
+		
+		
+		
+		<!-- RESPONSIVE NAV -->
+		<script>
+			$(document).ready(function(){
+				$(".panel a").click(function(e){
+					e.preventDefault();
+					var style = $(this).attr("class");
+					$(".menu").removeAttr("class").addClass("menu").addClass(style);
+				});
+			});
+			//different script for nav
+			jQuery(document).ready(function(){  
+				$('.menu').gexmenu();
+			});
+		</script>
+		
+		<!-- GOOGLE MAPS -->
+		 		
+		
+		
+		<!-- Careousel-->	          
+	    <script type="text/javascript">
+	        jQuery(document).ready(function() {
+	           
+	            $(window).on('resize', function() {
+				    var w = $(window).width();
+				    
+				});
+	            // example 2
+	            $("ul.carousel").simplecarousel({
+	                width: "w",
+	                height:190,
+	                auto: 4000,
+	                fade: 400,
+	                pagination: true
+	            });
+	        });
+	        
+	    </script>
+		
+		
+		 
+	    <!-- validaiton
+	     -->		
+		<script>
+			function validateForm()
+			{
+			var first=document.forms["contact_form"]["firstname"].value;
+			var email=document.forms["contact_form"]["email"].value;
+			var subject=document.forms["contact_form"]["subject"].value;
+			var message=document.forms["contact_form"]["message"].value;
+			 if (first==null || first=="")
+			  {
+			  alert("First name must be filled out");
+			  return false;
+			  }
+			  
+			 if (email==null || email=="")
+			  {
+			  alert("Email must be filled out");
+			  return false;
+			  } 
+			    
+			  if (subject==null || subject=="")
+			  {
+			  alert("subject  must be filled out");
+			  return false;
+			  }
+			  
+			 if (message==null || message=="")
+			  {
+			  alert("message must be filled out");
+			  return false;
+			  }    
+			}
+		</script>
+	 
+		 
+		 
+ 
+		 
+		 
+		 
+		<!-- text rotate -->
+		<script>
+		  $(document).ready(function(){
+				$(".demo1 .rotate").textrotator({
+			        animation: "fade",
+			        speed: 1000
+		      });
+	  		});
+			
+		</script>
+	 
+
+           
+
+	 
+	  	 <script type="text/javascript"> 
+	  	  function detectmob() {
+			   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+			     return true;
+			   } else {
+			     return false;
+			   }
+			}if(!detectmob()){
+	  	 
+			var sceneOptions = {duration: 100, offset: -200};
+			var elements = $("#portfolio");
+
+			// fade
+			new ScrollScene(sceneOptions)
+				.addTo(controller)
+				.triggerHook("onCenter")
+				.triggerElement(elements[0])
+				.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 
+			var sceneOptions = {duration: 500, offset: -200};
+			var elements = $("#portfolio ul");
+
+			// fade
+			new ScrollScene(sceneOptions)
+				.addTo(controller)
+				.triggerHook("onCenter")
+				.triggerElement(elements[0])
+				.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 
+			var sceneOptions = {duration: 500, offset: -200};
+			var elements = $("#about");
+
+			// fade
+			new ScrollScene(sceneOptions)
+				.addTo(controller)
+				.triggerHook("onCenter")
+				.triggerElement(elements[0])
+				.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 
+			var sceneOptions = {duration: 500, offset: -200};
+			var elements = $("#skills");
+
+			// fade
+			new ScrollScene(sceneOptions)
+				.addTo(controller)
+				.triggerHook("onCenter")
+				.triggerElement(elements[0])
+				.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 
+			var sceneOptions = {duration: 500, offset: -200};
+			var elements = $("#contactMap");
+
+			// fade
+			new ScrollScene(sceneOptions)
+				.addTo(controller)
+				.triggerHook("onCenter")
+				.triggerElement(elements[0])
+				.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+				
+				 
+			e }
+		 </script>	  
+	</body>
+
+
+
+
+<style>
+
+.icons {
+max-width:250px;
+}
+@media screen and (min-width: 900px) {
+#contactMap #mapContent .btnBlue {
+
+    float: left;
+
+    padding: 10px;
+
+    position: absolute;
+
+    bottom: -49px;
+
+    left: 0px;
+
+    background-color: #FFF;
+
+    transition: all 0.5s ease-in-out 0s;
+
+    cursor: pointer;
+
+}
+
+ 
+
+#contactMap #mapContent .left form {
+
+    width: 93%;
+
+    margin: 0px auto;
+
+    display: block;
+
+    top: -15px;
+
+    position: relative;
+
+}
+}
+</style>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52707710-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
+ 
+		

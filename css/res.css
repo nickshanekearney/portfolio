@@ -1,0 +1,214 @@
+@media all and (max-width: 980px) {
+
+	.fourth {
+		width:50%;
+		float: left;
+	}
+    .fifth {
+	    float: left;
+	    width: 50%;
+    }
+   	.third {
+		width:100%;
+		float: left; 
+	}
+ 
+	#about .third > p { 
+	    font-family: Helvetica,Arial,sans-serif;
+	    padding: 5px;
+	    font-weight: 500;
+	    color: #b3b3b3;    
+	}
+   
+    #portfolio li {
+    	height: auto;
+    	overflow: visible;
+    }
+    #portfolio header {
+	    margin-bottom: 75px;
+    }
+    #portfolio {
+	    margin-bottom: 30px;
+    }
+    
+    
+    #about {
+	    min-height: 690px;
+	    padding-bottom: 90px;
+	}
+	#about header {
+	    margin-bottom: 50px;
+	}
+	#about .third:hover {
+		border-bottom:none;	  
+	}	
+	
+	#skills {
+	    min-height: 520px; 
+	    padding: 120px 0 60px 0;
+	}
+	#skills .fourth {
+	    text-align: center;
+	}
+	#skills .fourth h3{
+	    width: 100%;
+	    text-align: center;
+	}
+	#skills .fourth  {
+	    width: 33.3333%;
+	    text-align: center;
+	    height: 55px;
+	}
+ 
+	section header {
+   	    margin-bottom: 0px;
+    }
+     
+    .downloadTabContent { 
+	    top: 145px !important;
+	}
+    #download p {
+	    top: 0!important;	   
+    }
+	footer .right {
+		width: 80px;
+	}
+    footer .right h3{
+    	display: none;
+    }
+    footer .right i {
+	    left: 25px;
+    }
+
+    
+   
+}
+   @media all and (max-width: 900px) {
+	    #contactMap #mapContent .left {
+		 	float: left;
+		 	width: 100%;
+		 }
+		 #contactMap #mapContent .right {
+		 	float: left;
+		 	width: 100%;
+		 }
+		 #openMe h2 { 
+		    line-height: 38px;
+		    top:20px;
+		 }
+		 #contactMap #mapContent {
+			 width: 100%!important;
+		 }
+		 #contactMap .icons { 
+		    position: relative; 
+		    top: 28px;
+		}
+		footer p {
+		    width: 300px;
+		    color: black;
+		}
+	}
+
+
+  
+   
+   
+   
+   
+   
+   
+   
+   @media all and (max-width: 769px) {
+	    .logoNav { 
+		 	display: none;
+		 }
+   }
+   @media all and (max-width: 769px) {
+        .downloadTabContent { 
+		    top: 194px !important;
+		}
+   }
+      @media all and (max-width: 392px) {
+        .downloadTabContent { 
+		    top: 243px !important;
+		}
+   }
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) {
+	#intro {
+		background: none;
+	}
+	.fourth {
+		width:100%;
+		float: left;
+	}
+	.fifth {
+	    float: left;
+	    width: 100%;
+    }
+    
+    #intro h1 { 
+	   font-size: 51px;
+	   margin-bottom: 4px;
+	}
+    #intro p {
+    	font-size: 20px;
+    	font-weight: 500;
+    }
+    
+ 
+    #about {
+	    min-height: 800px;
+	   font-weight: 500;
+	}
+	#about .third:hover {
+		border-bottom:none;	 
+	}	
+	#skills {
+	    min-height: 700px; 
+	    
+	    font-weight: 500;
+	}
+	#skills .fourth  {
+	    width: 50%;
+	    text-align: center;
+	}
+	#third {
+		display: none;
+	}
+	#reviews {
+		display: none;
+	}
+	
+	#personalInfo {
+		min-height: 400px;
+	}
+	
+	
+	footer .left { 
+	    padding: 15px;
+	}
+	footer .left p span {
+		display: block
+	}
+    footer .left { 
+	    padding: 15px;
+	}
+	footer .left p span {
+		display: block;
+	}
+   
+}
+
+@media all and (max-width: 320px) {
+ 
+ 
+
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+	<link rel="stylesheet" href="css/demo.css" type="text/css">
+
+	<script type="text/javascript" src="js/_dependent/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/_dependent/greensock/plugins/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="js/_dependent/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="js/_examples/modernizr.custom.min.js"></script>
+  	<script type="text/javascript" src="js/_mobile/iscroll.js"></script>
+  	<script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
+  	<script type="text/javascript" src="js/_examples/demo.js"></script>
+</head>
+<body
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 
+	  	<script type="text/javascript">
+	  		var controller;
+	  		if (Modernizr.touch) {
+	  			var myScroll;
+	  			 	  			// init the controller
+	  			controller = new ScrollMagic({
+		  			container: "#content-wrapper",
+		  			globalSceneOptions: {
+		  				triggerHook: "onLeave"
+		  			}
+		  		});
+	  		} else {
+	  			// init the controller
+		  		controller = new ScrollMagic({
+		  			globalSceneOptions: {
+		  				triggerHook: "onLeave"
+		  			}
+		  		});
+	  		}
+
+	  	</script>
+		 
+			 
+		<section id="tweens">
+			<h3>fade</h3>
+			 
+			 
+			 
+			 
+			 
+			<script type="text/javascript">
+				var sceneOptions = {duration: 100, offset: -200};
+				var elements = $("#tweens h3");
+
+				// fade
+				new ScrollScene(sceneOptions)
+					.addTo(controller)
+					.triggerHook("onCenter")
+					.triggerElement(elements[0])
+					.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 			</script>
+			
+			
+			
+			
+			
+			
+		</section>
+ 		 
+	
+	
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+			 
+			 
+		<section id="tweens2">
+			<h3>fade</h3>
+			 
+			 
+			 
+			 
+			 
+			<script type="text/javascript">
+				var sceneOptions = {duration: 100, offset: -200};
+				var elements = $("#tweens2 h3");
+
+				// fade
+				new ScrollScene(sceneOptions)
+					.addTo(controller)
+					.triggerHook("onCenter")
+					.triggerElement(elements[0])
+					.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 			</script>
+			
+			
+			
+			
+			
+			
+		</section>
+ 		 
+	
+	
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+			 
+			 
+		<section id="tweens3">
+			<h3>fade</h3>
+			 
+			 
+			 
+			 
+			 
+			<script type="text/javascript">
+				var sceneOptions = {duration: 100, offset: -200};
+				var elements = $("#tweens3 h3");
+
+				// fade
+				new ScrollScene(sceneOptions)
+					.addTo(controller)
+					.triggerHook("onCenter")
+					.triggerElement(elements[0])
+					.setTween(TweenMax.from(elements[0], 1, {autoAlpha: 0}));
+ 			</script>
+			
+			
+			
+			
+			
+			
+		</section>
+ 		 
+	
+	
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	 </body>
+</html>
